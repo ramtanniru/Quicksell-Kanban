@@ -67,10 +67,10 @@ const groupByPriority = (tickets) => {
     },
     {
         "No priority": [],
-        "Low": [],
-        "Medium": [],
+        "Urgent": [],
         "High": [],
-        "Urgent": []
+        "Medium": [],
+        "Low": []
     });
     return groups;
 }

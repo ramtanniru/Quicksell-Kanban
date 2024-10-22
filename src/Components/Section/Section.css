@@ -43,7 +43,7 @@
 
 @media screen and (max-width:700px) {
     .section-container {
-        width: calc(100vw-4rem);        
+        width: 100vw      
     }
     .section-container .section-body {
         width: 100%;

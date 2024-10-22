@@ -8,7 +8,7 @@
     gap: 0.5rem;
     border-radius: 0.25rem;
     padding: 0.25rem 0.5rem;
-    box-shadow: 0 0 0.25rem #12121242;
+    box-shadow: 0 0 0.25rem #65656542;
     background-color: #fff;
     cursor: pointer;
 }
@@ -23,7 +23,7 @@
     top: 2.5rem;
     padding: 1.25rem 1.5rem;
     border-radius: 0.5rem;
-    background-color: #f8f9fb;
+    background-color: #f5f7fa;
     box-shadow: 0 0 0.125rem #0007;
     width: 30%;
     min-width: 250px;

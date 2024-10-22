@@ -5,7 +5,7 @@ export default function Profile({name,activityStatus}) {
   const text = useMemo(()=>{
     return name.split(" ").map((item) => item[0]).join("");
   },[name])
-  const colors = ['#ff0000','#0CB44FFF','#f2be02','#0547B0FF'];
+  const colors = ['#ff0000','#0CB44FFF','#F26A02FF','#054EC3FF'];
   const c = colors[Math.floor(Math.random()*colors.length)];
   console.log(activityStatus);
   

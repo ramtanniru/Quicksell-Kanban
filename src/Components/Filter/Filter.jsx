@@ -30,7 +30,7 @@ export const Filter = ({ grouping,ordering,setGrouping,setOrdering }) => {
   return (
     <div className='display-dropdown' ref={comp}>
       <div className='dropdown-label-container' onClick={onOpenDropDown}>
-        <img src={'/assets/Display.svg'} height={30} width={50} alt='display'/>
+        <img src={'/assets/Display.svg'} height={20} width={30} alt='display'/>
         <div className='dropdown-label'>Display</div>
         <img src={'/assets/Down.svg'} height={20} width={30} alt='down'/>
       </div>

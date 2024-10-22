@@ -15,14 +15,14 @@
 
 .display-dropdown .dropdown-label {
     color: #282a2f;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .display-dropdown .dropdown-content-container {
     position: absolute;
     top: 2.5rem;
     padding: 1.25rem 1.5rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     background-color: #f8f9fb;
     box-shadow: 0 0 0.125rem #0007;
     width: 30%;
@@ -44,8 +44,8 @@
 }
 
 .display-dropdown .dropdown-content-label {
-    color: #8a8b8c;
-    font-weight: bold;
+    color: #a9a7ab;
+    font-weight: 700;
 }
 
 .display-dropdown select {

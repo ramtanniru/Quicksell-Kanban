@@ -23,8 +23,8 @@ export const Filter = ({ grouping,ordering,setGrouping,setOrdering }) => {
     }
   }
 
-  const onChangeGroup = (e) => setGrouping(e);
-  const onChangeOrder = (e) => setOrdering(e);
+  const onChangeGroup = (e) => setGrouping(e.target.value);
+  const onChangeOrder = (e) => setOrdering(e.target.value);
 
 
   return (

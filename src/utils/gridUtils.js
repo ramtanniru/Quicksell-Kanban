@@ -14,7 +14,17 @@ export const loadGridData = (tickets, grouping, ordering) => {
         case('priority'): return groupByPriority(newTickets);
         default: return groupByUsers(newTickets);
     }
+}
 
+export const getPriority  = (priority) => {
+    switch (priority) {
+        case 0: return "No priority";
+        case 1: return "Low";
+        case 2: return "Medium";
+        case 3: return "High";
+        case 4: return "Urgent";
+        default: return "No priority";
+    }
 }
 
 const groupByStatus = (tickets) => {
@@ -28,7 +38,7 @@ const groupByStatus = (tickets) => {
     {
         "Backlog": [],
         "Todo": [],
-        "In Progress": [],
+        "In progress": [],
         "Done": [],
         "Canceled": []
     });
@@ -64,15 +74,3 @@ const groupByPriority = (tickets) => {
     });
     return groups;
 }
-
-const getPriority  = (priority) => {
-    switch (priority) {
-        case 0: return "No priority";
-        case 1: return "Low";
-        case 2: return "Medium";
-        case 3: return "High";
-        case 4: return "Urgent";
-        default: return "No priority";
-    }
-}
-

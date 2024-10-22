@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import { Filter } from '../Filter/Filter'
+import { Filter } from '../../ui/Filter/Filter'
 
 export const Header = ({ grouping,ordering,setGrouping,setOrdering }) => {
   return (

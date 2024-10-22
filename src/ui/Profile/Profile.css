@@ -1,0 +1,26 @@
+.usericon-container{
+    display: grid;
+    place-items: center;
+    position: relative;
+    height: 1rem;
+    width: 1rem;
+    background-color: blue;
+    color: white;
+    border-radius: 9999;
+    font-size: 0.5rem;
+}
+
+.usericon-container .user-status{
+    position: absolute;
+    border: 1px white;
+    border-radius: 9999;
+    color: 1px solid grey;
+    bottom: -0.125rem;
+    right: -0.125rem;
+    height: 0.25rem;
+    width: 0.25rem;
+}
+
+.usericon-container .user-status .available{
+    background-color: green;
+}

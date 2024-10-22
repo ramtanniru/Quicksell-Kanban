@@ -1,11 +1,18 @@
-import React from 'react'
-import './Profile.css'
+import React,{ useMemo } from 'react';
+import "./Profile.css"
 
 export default function Profile({name,activityStatus}) {
+  const text = useMemo(()=>{
+    return name.split(" ").map((item) => item[0]).join("");
+  },[name])
+  const colors = ['#ff0000','#0CB44FFF','#f2be02','#0547B0FF'];
+  const c = colors[Math.floor(Math.random()*colors.length)];
+  console.log(activityStatus);
+  
   return (
-    <div className='usericon-cotainer'>
+    <div className='usericon-container' style={{backgroundColor:c}}>
         <div className='usericon'>
-            {name}
+            {text}
         </div>
         <div className={`user-status ${activityStatus && "available"}`}></div>
     </div>

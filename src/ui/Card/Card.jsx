@@ -10,7 +10,7 @@ export default function Card({ ticket, userData, hideStatusIcon, hideProfileIcon
     <div className='card'>
       <div className='top-container'>
         <div className='ticket-id'>{ticket.id}</div>
-          {!hideProfileIcon && <Profile name={userData.name} available={userData.available} />}
+          {!hideProfileIcon && <Profile name={userData.name} activityStatus={userData.available} />}
         </div>
         <div className='middle-container'>
           {!hideStatusIcon && getStatusIcon(ticket.status)}

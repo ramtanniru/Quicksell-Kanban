@@ -109,10 +109,10 @@ Here are examples of how the application groups and sorts tasks:
 - **Grouped by User**: Tasks are grouped by the user to whom they are assigned.
 - **Grouped by Priority**: Tasks are grouped according to their priority (Urgent, High, Medium, Low, No Priority).
 
-![Grouped by Filter](/kanban/demo/filter.png)
-![Grouped by Status](/kanban/demo/status.png)
-![Grouped by User](/kanban/demo/user.png)
-![Grouped by Priority](/kanban/demo/priority.png)
+![Grouped by Filter](/demo/filter.png)
+![Grouped by Status](/demo/status.png)
+![Grouped by User](/demo/user.png)
+![Grouped by Priority](/demo/priority.png)
 
 ## Contributors
 
